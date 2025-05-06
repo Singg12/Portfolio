@@ -142,13 +142,13 @@ export function ContactForm() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.4, duration: 0.5 }}
       >
-        <Button
+        {/* <Button
           type="submit"
           className="w-full rounded-full bg-indigo-600 py-6 text-white shadow-md transition-all hover:bg-indigo-700 hover:shadow-lg"
           disabled={isSubmitting}
         >
           {isSubmitting ? "Sending..." : "Send Message"}
-        </Button>
+        </Button> */}
       </motion.div>
       {isSubmitted && (
         <motion.div
