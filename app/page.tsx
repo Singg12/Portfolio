@@ -2,7 +2,7 @@
 
 import { useRef } from "react"
 import { motion, useScroll, useSpring, useInView } from "framer-motion"
-import { ArrowUp, Download, Github, Mail } from "lucide-react"
+import { ArrowUp, Download, Github, Linkedin, LinkedinIcon, LucideLinkedin, Mail } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
@@ -411,6 +411,15 @@ export default function Home() {
                     <span>github.com/Singg12</span>
                   </Link>
                 </motion.div>
+                <motion.div whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
+                  <Link
+                    href="https://www.linkedin.com/in/meng-chhaysing-904a1128a/"
+                    className="flex items-center space-x-3 text-lg font-medium text-indigo-600 hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300"
+                  >
+                    <Linkedin className="h-6 w-6" />
+                    <span>Meng Chhaysing</span>
+                  </Link>
+                </motion.div>
               </div>
               <div className="pt-6">
                 <p className="text-muted-foreground">Based in Phnom Penh, Cambodia</p>
@@ -439,11 +448,18 @@ export default function Home() {
               <Github className="h-5 w-5" />
             </Link>
             <Link
-              href="mailto:mengchhaysing@example.com"
+              href="mailto:mengchhaysing@gmail.com"
               aria-label="Email"
               className="text-muted-foreground hover:text-indigo-600 dark:hover:text-indigo-400"
             >
               <Mail className="h-5 w-5" />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/meng-chhaysing-904a1128a/"
+              aria-label="LikedIn"
+              className="text-muted-foreground hover:text-indigo-600 dark:hover:text-indigo-400"
+            >
+              <Linkedin className="h-5 w-5" />
             </Link>
           </div>
         </div>
