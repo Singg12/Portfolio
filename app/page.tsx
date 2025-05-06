@@ -393,7 +393,7 @@ export default function Home() {
               <div className="space-y-4">
                 <motion.div whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
                   <Link
-                    href="mailto:mengchhaysing@example.com"
+                    href="mailto:mengchhaysing@gmail.com"
                     className="flex items-center space-x-3 text-lg font-medium text-indigo-600 hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300"
                   >
                     <Mail className="h-6 w-6" />
