@@ -277,16 +277,16 @@ export default function Home() {
               index={3}
               inView={projectsInView}
             />
-             {/* <ProjectCard
-              title="E-commerce Platform"
-              description="A full-stack e-commerce platform with payment processing and inventory management."
-              techStack={["React", "PayPal", "Fake Store API", "Git"]}
-              githubUrl="https://github.com"
+             <ProjectCard
+              title="Banking Backend (In Progress)"
+              description="A Banking MicroService backend system with secure transactions and user authentication."
+              techStack={["SpringBoot", "MongoDB","MicroService","PosgreSQL","Docker"]}
+              githubUrl="https://github.com/Singg12/Banking"
               // demoUrl="https://demo.com"
-              imageUrl="/placeholder.svg?height=300&width=500"
+              imageUrl="/Banking.png?height=300&width=500"
               index={0}
               inView={projectsInView}
-            /> */}
+            />
             {/* <ProjectCard
               title="Weather Dashboard"
               description="A real-time weather dashboard with location-based forecasts."
@@ -333,9 +333,9 @@ export default function Home() {
             {/* <SkillIcon name="Next.js" icon="/placeholder.svg?height=60&width=60" index={3} inView={skillsInView} /> */}
             <SkillIcon name="SpringBoot" icon="/springboot-icon.png?height=60&width=60" index={4} inView={skillsInView} />
             {/* <SkillIcon name="Express" icon="/placeholder.svg?height=60&width=60" index={5} inView={skillsInView} /> */}
-            {/* <SkillIcon name="MongoDB" icon="/placeholder.svg?height=60&width=60" index={6} inView={skillsInView} /> */}
+            <SkillIcon name="HTML" icon="/html-icon.png?height=60&width=60" index={6} inView={skillsInView} />
             <SkillIcon name="PostgreSQL" icon="/posgres-icon.png?height=60&width=60" index={7} inView={skillsInView} />
-            {/* <SkillIcon name="GraphQL" icon="/placeholder.svg?height=60&width=60" index={8} inView={skillsInView} /> */}
+            <SkillIcon name="Java" icon="/java-icon.png?height=60&width=60" index={8} inView={skillsInView} />
             <SkillIcon name="Docker" icon="/Docker-icon.png?height=60&width=60" index={9} inView={skillsInView} />
             <SkillIcon name="AWS" icon="/aws-icon.png?height=60&width=60" index={10} inView={skillsInView} />
             <SkillIcon name="Git" icon="/git-icon.png?height=60&width=60" index={11} inView={skillsInView} />
@@ -402,7 +402,7 @@ export default function Home() {
                 </motion.div>
                 <motion.div whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
                   <Link
-                    href="https://github.com"
+                    href="https://github.com/Singg12"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-3 text-lg font-medium text-indigo-600 hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300"
@@ -439,7 +439,7 @@ export default function Home() {
           <div className="flex items-center space-x-4">
             <ThemeToggle />
             <Link
-              href="github.com/Singg12"
+              href="https://github.com/Singg12"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
